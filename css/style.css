@@ -556,3 +556,10 @@
         transform: translateX(-50%);
     }
 }
+
+/* Navbar Logo */
+@media (max-width: 576px) {
+    .navbar-brand img {
+        height: 42px !important;
+    }
+}
