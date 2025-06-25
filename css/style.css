@@ -558,8 +558,28 @@
 }
 
 /* Navbar Logo */
+/* Adjust logo size globally */
+.navbar-logo {
+    height: 60px;
+    width: auto;
+}
+
+/* Mobile-specific adjustments */
 @media (max-width: 576px) {
-    .navbar-brand img {
-        height: 22px !important;
+    .navbar-logo {
+        height: 50px; /* shrink logo on mobile */
+    }
+
+    .brand-title {
+        font-size: 1.4rem; /* smaller title text */
+    }
+
+    .navbar-brand {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .navbar-toggler {
+        margin-right: 0.5rem;
     }
 }
