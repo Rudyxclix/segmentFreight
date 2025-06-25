@@ -560,6 +560,6 @@
 /* Navbar Logo */
 @media (max-width: 576px) {
     .navbar-brand img {
-        height: 42px !important;
+        height: 35px !important;
     }
 }
