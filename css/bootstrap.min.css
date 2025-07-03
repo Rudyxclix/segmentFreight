@@ -7301,8 +7301,11 @@ fieldset:disabled .btn {
 }
 
 .border-primary {
-    border-color: #FF3E41 !important
+    border-width: 2px; /* or your desired width */
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #4d7aa8, #004687) 1 stretch;
 }
+
 
 .border-secondary {
     border-color: #51CFED !important
@@ -8334,7 +8337,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-    background-color: #FF3E41 !important
+    background: linear-gradient(to bottom, #4d7aa8, #004687) !important;
 }
 
 .bg-secondary {

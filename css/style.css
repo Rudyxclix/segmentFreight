@@ -1,5 +1,5 @@
 :root {
-    --primary: #FF3E41;
+    --primary: #ffffff;
     --secondary: #51CFED;
     --light: #F8F2F0;
     --dark: #060315;
@@ -559,14 +559,16 @@
 /* Navbar Logo */
 /* Adjust logo size globally */
 .navbar-logo {
-    height: 60px;
+    height: 80px;
     width: auto;
+    margin-bottom: 0.3rem;
 }
 
 /* Mobile-specific adjustments */
 @media (max-width: 576px) {
     .navbar-logo {
-        height: 50px; /* shrink logo on mobile */
+        height: 80px; /* shrink logo on mobile */
+         margin-bottom: 0.3rem;
     }
 
     .brand-title {
