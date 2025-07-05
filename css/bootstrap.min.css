@@ -7301,9 +7301,9 @@ fieldset:disabled .btn {
 }
 
 .border-primary {
-    border-width: 2px; /* or your desired width */
+    border-width: 2px;
     border-style: solid;
-    border-image: linear-gradient(to bottom, #4d7aa8, #004687) 1 stretch;
+    border-image: linear-gradient(to bottom, #a9c7e5, #5b9bd5) 1 stretch;
 }
 
 
@@ -8337,7 +8337,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-    background: linear-gradient(to bottom, #4d7aa8, #004687) !important;
+    background: linear-gradient(to bottom, #a9c7e5, #5b9bd5) !important;
 }
 
 .bg-secondary {
