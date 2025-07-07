@@ -91,7 +91,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--dark);
 }
 
 @media (max-width: 991.98px) {
@@ -111,7 +111,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
+    color: #316377;
     font-weight: 500;
 }
 
@@ -559,7 +559,7 @@
 /* Navbar Logo */
 /* Adjust logo size globally */
 .navbar-logo {
-    height: 85px;
+    height: 70px;
     margin-top: 6px;
     width: auto;
     margin-bottom: 0.3rem;
@@ -568,7 +568,7 @@
 /* Mobile-specific adjustments */
 @media (max-width: 576px) {
     .navbar-logo {
-        height: 80px; /* shrink logo on mobile */
+        height: 70px; /* shrink logo on mobile */
          margin-bottom: 0.3rem;
     }
 
